@@ -37,10 +37,18 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>CodeWithFriendsKa</id>
+			<name>release</name>
+			<url>https://github.com/</url>
+		</repository>
+	</distributionManagement>
+
 	<scm>
 		<developerConnection>scm:git:https://github.com/CodeWithFriendsKa/release</developerConnection>
- 	   <tag>HEAD</tag>
-  </scm>
+	</scm>
+
 	<build>
 		<plugins>
 			<plugin>
