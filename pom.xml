@@ -41,6 +41,17 @@
 		<developerConnection>scm:git:https://github.com/CodeWithFriendsKa/release</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<url>https://github.com/CodeWithFriendsKa/release</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>https://github.com/CodeWithFriendsKa/release</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
