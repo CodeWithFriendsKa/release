@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>de.medavis</groupId>
 	<artifactId>release</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>release</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -39,7 +39,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/CodeWithFriendsKa/release</developerConnection>
-    <tag>HEAD</tag>
+    <tag>release-0.0.3</tag>
   </scm>
 	<build>
 		<plugins>
