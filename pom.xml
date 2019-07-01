@@ -37,6 +37,9 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+		<developerConnection>scm:git:https://github.com/CodeWithFriendsKa/release</developerConnection>
+ 	 </scm>
 	<build>
 		<plugins>
 			<plugin>
