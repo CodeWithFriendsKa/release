@@ -73,6 +73,9 @@
 					<tagBase>
 						https://github.com/CodeWithFriendsKa/release.git
 					</tagBase>
+					<goals>
+						install
+					</goals>
 				</configuration>
 			</plugin>
 		</plugins>
